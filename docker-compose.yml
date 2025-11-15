@@ -31,7 +31,7 @@ services:
       - "41061:22"
       - "80:80"
     volumes:
-      - "/Users/raheem/work/zozutech/bamt-v1/bank-asset-management:/opt/lampp/htdocs"
+      - "./bank-asset-management:/opt/lampp/htdocs"
     restart: unless-stopped
 
 volumes:
