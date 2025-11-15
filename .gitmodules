@@ -1,0 +1,54 @@
+# Bank Asset & HR Management System - Submodules Configuration
+#
+# This file defines the submodules used in the project
+# Each submodule represents a logical component of the system
+#
+# To initialize all submodules:
+#   git submodule init
+#   git submodule update
+#
+# To update all submodules:
+#   git submodule update --remote
+
+[submodule "submodules/core-framework"]
+	path = submodules/core-framework
+	url = ./submodules/core-framework
+	branch = main
+	ignore = dirty
+
+[submodule "submodules/inventory-system"]
+	path = submodules/inventory-system
+	url = ./submodules/inventory-system
+	branch = main
+	ignore = dirty
+
+[submodule "submodules/hrm-system"]
+	path = submodules/hrm-system
+	url = ./submodules/hrm-system
+	branch = main
+	ignore = dirty
+
+[submodule "submodules/finance-system"]
+	path = submodules/finance-system
+	url = ./submodules/finance-system
+	branch = main
+	ignore = dirty
+
+[submodule "submodules/frontend-assets"]
+	path = submodules/frontend-assets
+	url = ./submodules/frontend-assets
+	branch = main
+	ignore = dirty
+
+# Note: These submodules are currently local references.
+# For production deployment, update URLs to point to actual repositories:
+#
+# [submodule "submodules/core-framework"]
+#	path = submodules/core-framework
+#	url = https://github.com/yourorg/bamt-core-framework.git
+#
+# [submodule "submodules/inventory-system"]
+#	path = submodules/inventory-system
+#	url = https://github.com/yourorg/bamt-inventory-system.git
+#
+# etc.
