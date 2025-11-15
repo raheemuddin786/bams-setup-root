@@ -1,0 +1,3 @@
+[submodule "bank-asset-management"]
+	path = bank-asset-management
+	url = https://github.com/raheemuddin786/bams.git
